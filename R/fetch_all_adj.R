@@ -1,5 +1,16 @@
-require(Rblpapi)
+#' A Cat Function
+#'
+#' This function allows you to express your love of cats.
+#' @param security Security for which you want to retrieve data. No defaults.
+#' @param field Field you want to retrieve. No defaults.
+#' @param start Start date of the request. Must be a date object. No defaults.
+#' @param end End date of the request. Must be a date object. No defaults.
+#' @keywords bloomberg cact
+#' @export
+#' @examples
+#' fetch_all_ca_flavours()
 
+require(Rblpapi)
 
 fetch_all_ca_flavours <- function(security, field, start, end, ...){
   
